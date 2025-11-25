@@ -254,7 +254,7 @@ options:
                  - 'user_firewall'
                  - 'user_banned'
                  - 'user_fortitoken'
-                 - 'user_device-query'
+                 - 'user_device_query'
                  - 'user_device'
                  - 'user_device-type'
                  - 'user_device-category'
@@ -615,7 +615,7 @@ options:
          - 'user_firewall'
          - 'user_banned'
          - 'user_fortitoken'
-         - 'user_device-query'
+         - 'user_device_query'
          - 'user_device'
          - 'user_device-type'
          - 'user_device-category'
@@ -1550,8 +1550,8 @@ module_selectors_defs = {
     },
     "user_banned": {"url": "user/banned", "params": {}},
     "user_fortitoken": {"url": "user/fortitoken", "params": {}},
-    "user_device-query": {
-        "url": "user/device-query",
+    "user_device_query": {
+        "url": "user/device/query",
         "params": {
             "expand_child_macs": {"type": "boolean", "required": "False"},
             "with_dhcp": {"type": "boolean", "required": "False"},
@@ -2837,7 +2837,7 @@ def main():
                 "user_firewall",
                 "user_banned",
                 "user_fortitoken",
-                "user_device-query",
+                "user_device_query",
                 "user_device",
                 "user_device-type",
                 "user_device-category",
@@ -3206,7 +3206,7 @@ def main():
                         "user_firewall",
                         "user_banned",
                         "user_fortitoken",
-                        "user_device-query",
+                        "user_device_query",
                         "user_device",
                         "user_device-type",
                         "user_device-category",
