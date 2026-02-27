@@ -4,21 +4,41 @@ Fortinet.Fortios Release Notes
 
 .. contents:: Topics
 
+v2.5.0
+======
+
+Release Summary
+---------------
+
+minor release for 2.5.0
+
+Major Changes
+-------------
+
+- Supported new versions 7.6.5 and 7.6.6.
+- Updated the Q&A for using the default_group feature in modules.
+
+Bugfixes
+--------
+
+- Fixed an issue where users were required to specify a password confirmation when using the system_admin and system_api_user modules in FortiOS 7.6.5 and later.
+- Fixed the issue that getting an error "BadGzipFile" when using token for authentication in new versions of FortiOS.
+
 v2.4.2
 ======
 
 Release Summary
 ---------------
 
-patch release of 2.4.2
+patch release for 2.4.2
 
-Major Changes
+Minor Changes
 -------------
 
-- Supported default_group feature for the all of the modules.
+- Supported default_group feature for all of the modules.
 
 Bugfixes
--------------
+--------
 
 - Fixed authentication issue in v7.6.4 when using access_token.
 

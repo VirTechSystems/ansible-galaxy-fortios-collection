@@ -602,6 +602,7 @@ The collection incluses the following modules:
 * `fortios_system_snmp_rmon_stat` SNMP Remote Network Monitoring (RMON) Ethernet statistics configuration in Fortinet's FortiOS and FortiGate.
 * `fortios_system_snmp_sysinfo` SNMP system info configuration in Fortinet's FortiOS and FortiGate.
 * `fortios_system_snmp_user` SNMP user configuration in Fortinet's FortiOS and FortiGate.
+* `fortios_system_sov_sase` Configure Sovereign SASE in Fortinet's FortiOS and FortiGate.
 * `fortios_system_speed_test_schedule` Speed test schedule for each interface in Fortinet's FortiOS and FortiGate.
 * `fortios_system_speed_test_server` Configure speed test server list in Fortinet's FortiOS and FortiGate.
 * `fortios_system_speed_test_setting` Configure speed test setting in Fortinet's FortiOS and FortiGate.
@@ -742,7 +743,7 @@ The collection incluses the following modules:
 * `fortios_wireless_controller_apcfg_profile` Configure AP local configuration profiles in Fortinet's FortiOS and FortiGate.
 * `fortios_wireless_controller_arrp_profile` Configure WiFi Automatic Radio Resource Provisioning (ARRP) profiles in Fortinet's FortiOS and FortiGate.
 * `fortios_wireless_controller_ble_profile` Configure Bluetooth Low Energy profile in Fortinet's FortiOS and FortiGate.
-* `fortios_wireless_controller_bonjour_profile` Configure Bonjour profiles. Bonjour is Apple's zero configuration networking protocol. Bonjour profiles allow APs and FortiAPs to connnect to networks using Bonjour in Fortinet's FortiOS and FortiGate.
+* `fortios_wireless_controller_bonjour_profile` Configure Bonjour profiles. Bonjour is Apple's zero configuration networking protocol. Bonjour profiles allow APs and FortiAPs to connect to networks using Bonjour in Fortinet's FortiOS and FortiGate.
 * `fortios_wireless_controller_client_info` Wireless controller client-info in Fortinet's FortiOS and FortiGate.
 * `fortios_wireless_controller_global` Configure wireless controller global settings in Fortinet's FortiOS and FortiGate.
 * `fortios_wireless_controller_hotspot20_anqp_3gpp_cellular` Configure 3GPP public land mobile network (PLMN) in Fortinet's FortiOS and FortiGate.
@@ -764,6 +765,7 @@ The collection incluses the following modules:
 * `fortios_wireless_controller_hotspot20_qos_map` Configure QoS map set in Fortinet's FortiOS and FortiGate.
 * `fortios_wireless_controller_inter_controller` Configure inter wireless controller operation in Fortinet's FortiOS and FortiGate.
 * `fortios_wireless_controller_log` Configure wireless controller event log filters in Fortinet's FortiOS and FortiGate.
+* `fortios_wireless_controller_lw_profile` Configure LoRaWAN profile in Fortinet's FortiOS and FortiGate.
 * `fortios_wireless_controller_mpsk_profile` Configure MPSK profile in Fortinet's FortiOS and FortiGate.
 * `fortios_wireless_controller_nac_profile` Configure WiFi network access control (NAC) profiles in Fortinet's FortiOS and FortiGate.
 * `fortios_wireless_controller_qos_profile` Configure WiFi quality of service (QoS) profiles in Fortinet's FortiOS and FortiGate.
